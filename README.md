@@ -1,7 +1,7 @@
 # Perfect DIMI - Funilaria e Pintura Automotiva 🛠️ 🚗 
 
 ## :pushpin: Sobre o Projeto  
-Perfect DIMI é um site desenvolvido para uma marca especializada em **funilaria e pintura automotiva**, oferecendo uma interface intuitiva e funcionalidades interativas para os clientes explorarem serviços disponíveis.  
+Perfect DIMI é um site **teste** desenvolvido para uma marca especializada em **funilaria e pintura automotiva**, oferecendo uma interface intuitiva e funcionalidades interativas para os clientes explorarem serviços disponíveis.  
 
 ## 🛠️ Ferramentas Utilizadas  
 - **HTML**: Estruturação das páginas e elementos visuais.  
