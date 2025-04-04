@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav_list {
+    display: flex;
+    gap: 56px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.foto_logo {
+    width: 10rem;
+    height: auto;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+}
+
+.nav_input {
+    width: 19.5rem;
+    flex: 1;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #EFEFEF;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    height: 3.18rem;
+    background-image: url("/assets/location_on.svg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    pointer-events: none;
+}
+
+.menu_toggle {
+    display: none;
+}
+
+
+.nav_icons {
+    display: flex;
+    gap: 2.5rem
+}
+
+@media screen and (max-width: 1200px) {
+    .nav_list {
+        row-gap: 2rem;;
+        gap: 1rem;
+    } 
+
+    .nav_item_form {
+        flex: 1 1 100%;
+        text-align: center;
+        order: 1;
+    }
+    .nav_input {
+        width: 100%;
+    }
+
+    .header {
+        padding: 0 2rem 0 2rem;
+    }
+    .foto_logo {
+        width: 9rem;
+     }
+}
+
+
+@media screen and (max-width: 657px) {
+    .foto_logo {
+        margin-left: 0%; 
+   }  
+
+   .nav_link {
+    font-size: 1rem;
+   }
+
+   .foto_logo {
+    width: 8rem;
+   }
+
+   .nav_icons {
+    width: 1.2rem;
+    margin-right: 3px;
+   }
+}
+
+@MEDIA SCREEN and (max-width: 410px) {
+
+    header {
+        width: 100%;
+    }
+    .banner_container {
+        overflow-x: hidden;
+    }
+
+    .nav_list {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .nav_link {
+        display: none;
+    }
+
+    .menu_toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .menu_toggle_icon {
+        background-color: transparent;
+        border: none;
+    }
+
+    .header {
+        padding: 0 1rem;
+    }
+    .foto_logo {
+        width: 6.1rem;
+        margin-left: -30px;
+        
+    }
+
+    .nav_icons img {
+        width: 1.1rem; 
+    }
+
+    .nav_input {
+        padding: 0.5rem 1rem;
+        height: 2.2rem;
+        font-size: 0.8rem;
+    }
+
+    .menu_toggle img {
+        width: 1.2rem;
+    }
+
+
+
+}
+
+
+
+/* Codigo abaixo adiciona menu toggle, em que some Sobre nós e Contato */
+/* @media screen and (max-width: 730px) {
+    
+    .nav_link {
+        display: none;
+    }
+
+    .menu_toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+     .foto_logo {
+         margin-left: -5rem; 
+    }  
+
+    .header {
+    
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .menu_toggle_icon {
+        background-color: transparent;
+        border: none;
+    }
+
+    .foto_logo {
+        margin-right: 3px;
+    }
+
+
+    .nav_list:nth-child(2) {
+        margin-left: -70px; /* Alinha o segundo item para a esquerda 
+        display: flex;
+    }
+} */

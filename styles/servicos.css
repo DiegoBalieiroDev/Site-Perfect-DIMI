@@ -1,0 +1,99 @@
+.servicos {
+    margin: 1.5rem auto;
+    max-width: 1200px;
+}
+
+.funilaria_pesquisa {
+    margin: 1rem auto 1.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    width: 42.375rem;
+    border-radius: 0.5rem;
+    border: 2px solid #A6A6A6;
+    display: block;
+}
+
+.funilaria_pesquisa::placeholder {
+    color: #1e1e1e;;
+    font-family: var(--fonte-texto);
+    background-image: url(/assets/search.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.servicos_cabecalho {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.servico_cabecalho_item {
+    font-family: var(--fonte-texto);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.servico_cabecalho_item_ativo {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.servico_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    color: #343333;
+}
+
+@media screen and (max-width: 1247px) {
+    .servicos {
+        padding: 0 5rem;
+    }
+
+    .servicos_cabecalho {
+        gap: 0.5rem;
+    }
+
+    .funilaria_pesquisa {
+        padding: 0.5rem 1rem;
+        width: 85%;
+    }
+
+    .servico_titulo {
+        font-size: 2rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .servicos {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width:370px) {
+
+
+    .servicos { 
+        margin: 0.2rem auto 2rem auto;
+        padding: 0.4rem 1.2rem;
+    }
+    .servico_cabecalho_item {
+    font-size: 1rem;
+    }
+
+    .funilaria_pesquisa {
+       margin: 0.6rem 0.6rem 1rem 0.6rem;
+       height: 1.8rem;
+       font-size: 0.7rem;
+    }
+
+    .servico_titulo{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+}

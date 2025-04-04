@@ -1,0 +1,244 @@
+/* body {
+    overflow-x: hidden;
+} */
+
+.foto_servico1 {
+    width: 25rem;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.servico_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.servico_list_item {
+        /* flex-grow: 1;  */
+        box-sizing: border-box; /* Inclui o padding e a borda no tamanho do elemento */
+        flex-shrink: 1;
+        flex-basis: 32%;
+        /* width: 100%; */
+        height: 100%;
+        box-shadow: 0px 4px 24px 0px #7B7B7B26;;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        cursor: pointer;
+        /* max-width: 17rem */
+
+}
+
+.servico_list_container {
+    padding: 1rem;
+    font-family: var(--fonte-texto);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.62rem;
+    /* border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem; */
+}
+
+.servico_list_linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servico_list_descricao_tipo, .servico_list_descricao_dimensao, .servico_list_descricao_idade, .servico_list_descricao_duracao {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.servico_list_descricao_dimensao {
+    background-color: #EFEFEF;
+}
+
+.servico_list_descricao_idade {
+    background-color: #C3FF95;
+}
+
+.servico_list_descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .foto_servico1 {
+        width: 20rem;
+    }
+}
+
+
+
+.image-container {
+    text-align: center;
+}
+
+.image {
+    width: 25rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    cursor: pointer;
+}
+
+.image:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 0.7rem;
+    object-fit: contain;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fade-in {
+    animation: fadeIn 0.2s;
+}
+
+.fade-out {
+    animation: fadeOut 0.2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1247px) {
+    .image-container {
+        width: 100px;
+    }
+    .image {
+        width: 332px;
+    }
+    
+    .servico_list_container {
+        width: 332px;
+    }
+
+    @media screen and (max-width:1067px) {
+        .image-container {
+            width: 70px;
+        }
+        .image {
+            width: 295px;
+        }
+        
+        .servico_list_container {
+            width: 295px;
+        }
+    }
+
+    @media screen and (max-width: 879px){
+        .image-container {
+            width: 50px;
+        }
+        .image {
+            width: 15.93rem;
+        }
+        
+        .servico_list_container {
+            width: 15.93rem;
+        }
+
+        .servico_list_item_titulo {
+            font-size: 13px;
+        }
+
+        .servico_list_descricao_dimensao {
+            font-size: 12.5px;
+        }
+        .servico_list_descricao_tipo {
+            font-size: 12.5px;
+        }
+
+        .servico_list_descricao_duracao {
+            font-size: 12.5px;
+        }
+
+        .servico_list_descricao_idade {
+            font-size: 12.5px;
+        }
+    }
+
+    @media screen and (max-width:410px) {
+        .image {
+            width: 13.75rem;
+        }
+
+        .servico_list_container {
+            width: 13.75rem;
+            gap: 0.7rem;
+        }
+
+        .servico_list_descricao_tipo {
+            padding: 0.5rem 1rem 0.5rem 0.5rem;
+            font-size: 12px;
+        }
+
+        .servico_list_descricao_dimensao {
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            font-size: 11.5px;
+        }
+    }
+}

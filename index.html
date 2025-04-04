@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/banner.css">
+    <link rel="stylesheet" href="/styles/servicos.css">
+    <link rel="stylesheet" href="/styles/servicos_list.css">
+    <link rel="stylesheet" href="/styles/nossos_servicos.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <title>Perfect DIMI</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="nav" aria-label="navegação principal">
+            <ul class="nav_list">
+
+                <li class="menu_toggle">
+                    <button class="menu_toggle_icon" aria-label="menu">
+                        <img src="/assets/menu.svg" alt="menu_hamburguer">
+                    </button>
+                </li>
+
+                <li class="nav_item nav_foto">
+                    <a href="index.html">
+                        <img class="foto_logo" src="assets/pai logo 5.png" alt="logo Perfect DIMI">
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Sobre nós</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Contato</a>
+                </li>
+
+                <li class="nav_item nav_item_form">
+                    <form class="nav_form">
+                        <input type="search" id="localizacao" class="nav_input"
+                            placeholder="Avenida João XXIII, 78 - SP ">
+                    </form>
+                </li>
+
+                <li class="nav_item nav_icons">
+                    <a href="#" aria-label="Perfil">
+                        <img src="assets/Perfil.svg" alt="">
+                    </a>
+                    <!-- <a href="#" aria-label="perfil">
+                       <img src="/assets/Carrinho.svg" alt="carrinho">
+                    </a> -->
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <section class="banner">
+
+        <div class="banner_container">
+            <h2 class="banner_titulo">
+                <span class="banner_titulo_destaque">Funilaria e pintura</span> de<br />
+                confiança!
+            </h2>
+
+        </div>
+
+    </section>
+
+    <section class="servicos">
+        <ul class="servicos_cabecalho" role="tablist" aria-label="navegacao ">
+            <li class="servico_cabecalho_item servico_cabecalho_item_ativo" role="tab" aria-selected="true">
+                Funilaria
+            </li>
+
+            <li class="servico_cabecalho_item" role="tab">
+                Pintura
+            </li>
+        </ul>
+        <form class="input_servicos">
+            <input type="search" placeholder="Digite aqui" class="funilaria_pesquisa" aria-label="campo de busca">
+        </form>
+
+        <h2 class="servico_titulo">Funilaria</h2>
+
+
+        <ul class="servico_list">
+            <li class="servico_list_item">
+                <div class="image-container">
+                    <img src="/assets/foto1.jpeg" alt="Serviço funilaria" class="image" data-images='["/assets/foto1.jpeg", "/assets/carro.jpg"]'>
+                </div>
+                <!-- Modal -->
+                <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content">
+                </div>
+                <div class="servico_list_container">
+                    <h3 class="servico_list_item_titulo">Para-choque traseiro</h3>
+                    <div class="servico_list_descricao">
+                        <div class="servico_list_linha">
+                            <p class="servico_list_descricao_tipo">Funilaria</p>
+                            <p class="servico_list_descricao_dimensao">Jeep Compass</p>
+                        </div>
+                        <!-- <div class="servico_list_linha">
+                            <p class="servico_list_descricao_duracao">Preço</p>
+                            <p class="servico_list_descricao_idade">$</p>
+                        </div> -->
+                    </div>
+                </div>
+            </li>
+    
+            <li class="servico_list_item">
+                <div class="image-container">
+                    <img src="/assets/foto1.jpeg" alt="Serviço 2" class="image" data-images='["/assets/foto1.jpeg", "/assets/jeep-compass.jpg"]'>
+                </div>
+                <!-- Modal -->
+                <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content">
+                </div>
+                <div class="servico_list_container">
+                    <h3 class="servico_list_item_titulo">Serviço 2</h3>
+                    <div class="servico_list_descricao">
+                        <div class="servico_list_linha">
+                            <p class="servico_list_descricao_tipo">Funilaria</p>
+                            <p class="servico_list_descricao_dimensao">?</p>
+                        </div>
+                        <!-- <div class="servico_list_linha">
+                            <p class="servico_list_descricao_duracao">Preço</p>
+                            <p class="servico_list_descricao_idade">$</p>
+                        </div> -->
+                    </div>
+                </div>
+            </li>
+    
+            <!-- TESTE AQUI -->
+            <li class="servico_list_item">
+                <div class="image-container">
+                    <img src="/assets/foto1.jpeg" alt="Imagem" class="image" data-images='["/assets/foto1.jpeg", "/assets/carro.jpg"]'>
+                </div>
+                <!-- Modal -->
+                <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content">
+                </div>
+                <!-- TESTE ATÉ AQUI -->
+                <div class="servico_list_container">
+                    <h3 class="servico_list_item_titulo">Serviço 3</h3>
+                    <div class="servico_list_descricao">
+                        <div class="servico_list_linha">
+                            <p class="servico_list_descricao_tipo">Funilaria</p>
+                            <p class="servico_list_descricao_dimensao">?</p>
+                        </div>
+                        <div class="servico_list_linha">
+                            <p class="servico_list_descricao_duracao">Preço</p>
+                            <p class="servico_list_descricao_idade">$</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+    
+            <li class="servico_list_item">
+                <div class="image-container">
+                    <img src="/assets/carro.jpg" alt="Serviço funilaria" class="image" data-images='["/assets/carro.jpg", "/assets/foto1.jpeg"]'>
+                </div>
+                <!-- Modal -->
+                <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content">
+                </div>
+                <div class="servico_list_container">
+                    <h3 class="servico_list_item_titulo">Serviço 4</h3>
+                    <div class="servico_list_descricao">
+                        <div class="servico_list_linha">
+                            <p class="servico_list_descricao_tipo">Funilaria</p>
+                            <p class="servico_list_descricao_dimensao">?</p>
+                        </div>
+                        <div class="servico_list_linha">
+                            <p class="servico_list_descricao_duracao">Preço</p>
+                            <p class="servico_list_descricao_idade">$</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <section class="Nossos_servicos_container">
+        <h2 class="Nossos_servicos_titulo">Outros Serviços</h2>
+
+        <ul class="especialidades">
+
+            <li class="especialidades_itens">
+                <h2 class="especialidades_itens_titulo">Montagem componentes automotivos</h2>
+                <p class="especialidades_itens_texto">Instalação e remoção de componentes do veículos automotivos.</p>
+            </li>
+
+            <li class="especialidades_itens">
+                <h2 class="especialidades_itens_titulo">Martelinho de ouro</h2>
+                <p class="especialidades_itens_texto">Técnica de reparo automotivo usada para remover amassados na
+                    carroceria sem precisar repintar.</p>
+            </li>
+
+            <li class="especialidades_itens">
+                <h2 class="especialidades_itens_titulo">?</h2>
+                <p class="especialidades_itens_texto">xxxxxxxxxxxxxxxxxxxxxxxxx</p>
+            </li>
+
+            <li class="especialidades_itens">
+                <h2 class="especialidades_itens_titulo">?</h2>
+                <p class="especialidades_itens_texto">xxxxxxxxxxxxxxxxxxxx</p>
+            </li>
+
+            <li class="especialidades_itens">
+                <h2 class="especialidades_itens_titulo">?</h2>
+                <p class="especialidades_itens_texto">xxxxxxxxxxxxxxxxxxxxxxx</p>
+            </li>
+
+            <li class="especialidades_itens">
+                <h2 class="especialidades_itens_titulo">?</h2>
+                <p class="especialidades_itens_texto">xxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <footer class="footer">
+
+        <div class="footer_columns">
+
+            <div class="footer_columns_main">
+                <img 
+                class="footer_columns_logo"
+                src="/assets/logo pai branca.png" 
+                alt="Logo Perfect DIMI">
+                <h4 class="footer_columns_texto">Funilaria e pintura de qualidade</h4>
+            </div>
+
+            <div class="footer_column">
+                <h4 class="footer_column_titulo">Funcionamento</h4>
+                <ul class="footer_column_list footer_column_list_info ">
+
+                    <li>
+                        <p>Segunda a sexta - 08h às 18h</p>
+                    </li>
+
+                    <li>
+                        <p>Sábado - Fechado</p>
+                    </li>
+
+                    <li>
+                        <a href="perfectdimi3@hotmail.com">perfectdimi3@hotmail.com</a>
+                    </li>
+
+                    <li>
+                        <a href="tel:11991083662">(11) 99108-3662</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer_column">
+                <h4 class="footer_column_titulo">Institucional</h4>
+
+                <ul class="footer_column_list">
+
+                    <li>
+                        <a href="#">Sobre nós</a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#">Para empresas</a>
+                    </li> -->
+
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
