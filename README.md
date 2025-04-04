@@ -14,7 +14,7 @@ Perfect DIMI é um site desenvolvido para uma marca especializada em **funilaria
  
 ## :open_file_folder: Estrutura do Projeto  
 :file_folder: assets 
-<br/>:file_folder: css 
+<br/>:file_folder: styles 
 <br/>├── styles.css 
 <br/>├── header.css 
 <br/>├── banner.css 
@@ -22,7 +22,7 @@ Perfect DIMI é um site desenvolvido para uma marca especializada em **funilaria
 <br/>├── servicos_list.css 
 <br/>├── nossos_servicos.css 
 <br/>├── footer.css 
-<br/>js ├── script.js 
+<br/> 💻 js script.js 
 <br/>:page_facing_up: index.html
 
 ## :rocket: Link para o site 
