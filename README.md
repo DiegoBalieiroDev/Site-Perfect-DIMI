@@ -9,8 +9,8 @@ Perfect DIMI é um site desenvolvido para uma marca especializada em **funilaria
 - **JavaScript**: Funcionalidades interativas, incluindo **modais de imagem** e **efeitos dinâmicos**.  
 
 ## :sparkles: Funcionalidades    
-- :frame_photo: **Modais de imagens** que permitem visualizar diferentes fotos dos serviços.  
-- :mobile_phone: **Design responsivo**, garantindo uma experiência fluida em dispositivos móveis.  
+- 🖼️ **Modais de imagens** que permitem visualizar diferentes fotos dos serviços.  
+- 📱 **Design responsivo**, garantindo uma experiência fluida em dispositivos móveis.  
  
 ## :open_file_folder: Estrutura do Projeto  
 :file_folder: assets 
